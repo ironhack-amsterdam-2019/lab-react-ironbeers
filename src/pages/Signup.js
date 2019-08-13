@@ -13,7 +13,6 @@ export class Signup extends Component {
 
   submit(e) {
     e.preventDefault();
-    console.log(this.state.user)
     auth
       .signup(this.state.user)
       .then(() => {
