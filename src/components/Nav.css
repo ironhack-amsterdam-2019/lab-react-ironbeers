@@ -1,0 +1,12 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  background-color: lightblue;
+  padding: 15px 10%;
+}
+
+nav > div a {
+  padding: 10px;
+  text-decoration: none;
+}

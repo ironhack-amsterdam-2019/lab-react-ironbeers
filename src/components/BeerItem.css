@@ -1,0 +1,28 @@
+.BeerItem {
+  width: 400px;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  text-align: center;
+  margin: 15px;
+}
+
+.BeerItem a {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.BeerItem .imgWrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0px 0px 15px 0px;
+}
+
+.BeerItem img {
+  max-height: 200px;
+  max-width: 100%;
+}
